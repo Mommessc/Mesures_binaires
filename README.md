@@ -1,0 +1,1 @@
+Ce repertoire contient les fichiers et informations nécessaires pour l'activité d'informatique débranchée "Mesures binaires" créée durant l'école d'été de Médiation Scientifique en Informatique organisée par la SIF à Toulouse en 2018.

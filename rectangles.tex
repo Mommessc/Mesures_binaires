@@ -1,0 +1,29 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{diagbox}
+\usepackage{tikz}
+
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{tikzpicture}
+	\draw (0,0) rectangle (4,3);
+	\draw (4,0) rectangle (8,3);
+	\draw (8,0) rectangle (10,3);
+	\draw (10,0) rectangle (12,3);
+	\draw (0,3) rectangle (8,6);
+	\draw (8,3)rectangle (16,6);
+	\draw (0,6) rectangle (16,9);
+	\draw (16,6) rectangle (17,9);
+	\draw (0,9) rectangle (16, 12);
+	\draw (16,9) rectangle (17,12);
+	\draw (0,12) rectangle (17,15);
+	\draw (0,15) rectangle (17,18);
+	\draw (0,18) rectangle (17,21);
+	\draw (0,21) rectangle (17,24);
+	\draw[dashed] (15,12) -- (15,24);
+	
+\end{tikzpicture}
+\end{document}
