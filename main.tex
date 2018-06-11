@@ -1,0 +1,155 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=0.75in]{geometry}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{diagbox}
+\usepackage{tikz}
+
+\renewcommand{\arraystretch}{2.8}
+
+\begin{document}
+
+\title{Mesures Binaires}
+\author{Marie Le Guilly \and Clément Mommessin}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Notions abordées}
+
+Le but de cette activité est de découvrir le langage binaire et de voir comment sont représentés ces nombres binaires dans un ordinateur.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Public}
+
+Pour le moment activité testée seulement sur une classe de 3ème, mais il est possible de la faire pour toute classe de collège (voire fin de primaire pour la partie mesures et tri).
+
+Pour une classe de lycée, la partie de tri peut être faite plus rapidement, laissant du temps pour aborder plus en details la manipulation des nombres binaires comme par exemple l'addition et la multiplication.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Matériel}
+
+Des réglettes en papier (ou tout autre morceau de bois, de carton) de taille 1, 2, 4, 8, 16, 32, etc, avec un symbole différent pour chaque longueur différente.
+
+L'appendice A propose une page à imprimer contenant 2 jeux de réglettes de taille allant de 1 à 32 (coller les parties en pointillés sous les trèfles pour la taille 32).\\
+
+
+Au moins 6 objets à mesurer. Prévoir des objets au minimum de taille 1 et au maximum de taille 2 fois la plus grande réglette moins 1, pour être capable de les mesurer.
+Ces objets peuvent cacher une lettre, ou directement être des lettres, pour voir se formet un mot ou phrase lorsqu'ils sont rangés du plus petit au plus grand.\\
+
+
+L'appendice B présente deux tableaux pour aider à noter la taille des objets en termes de symboles, pour faciliter le tri des objets et commencer à voir l'écriture binaire.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Principe}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Extensions}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Liens}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Photos}
+
+
+
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%% RECTANGLES %%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{empty}
+\bf{Appendice A :} 2 jeux de réglettes de taille 1, 2, 4, 8, 16 et 32.
+\bigskip
+\bigskip
+~\\
+
+\begin{tikzpicture}
+    \draw (0,0) rectangle (4,3);
+    \draw (4,0) rectangle (8,3);
+    \draw (8,0) rectangle (10,3);
+    \draw (10,0) rectangle (12,3);
+    \draw (0,3) rectangle (8,6);
+    \draw (8,3)rectangle (16,6);
+    \draw (0,6) rectangle (16,9);
+    \draw (16,6) rectangle (17,9);
+    \draw (0,9) rectangle (16, 12);
+    \draw (16,9) rectangle (17,12);
+    \draw (0,12) rectangle (17,15);
+    \draw (0,15) rectangle (17,18);
+    \draw (0,18) rectangle (17,21);
+    \draw (0,21) rectangle (17,24);
+    \draw[dashed] (15,12) -- (15,18);
+
+    \draw (16.5,7.5) node[scale=1.75]{$\circ$};
+    \draw (16.5,10.5) node[scale=1.75]{$\circ$};
+    \draw (16,19.5) node{$\clubsuit$};
+    \draw (16,22.5) node{$\clubsuit$};
+    \draw (8,10.5) node[scale=1.75]{$\star$};
+    \draw (8,7.5) node[scale=1.75]{$\star$};
+    \draw (4, 4.5) node{$\spadesuit$};
+    \draw (12, 4.5) node{$\spadesuit$};
+    \draw (2, 1.5) node{$\diamondsuit$};
+    \draw (6, 1.5) node{$\diamondsuit$};
+    \draw (9, 1.5) node{$\#$};
+    \draw (11, 1.5) node{$\#$};
+\end{tikzpicture}
+
+\newpage
+\thispagestyle{empty}
+\bf{Appendice B :} 2 tableaux d'aide pour la représentation des mesures
+\bigskip
+\bigskip
+~\\
+
+\begin{tabularx}{\hsize}{|c|X|X|X|X|X|X|}
+    \hline
+    \diagbox{Objet}{Composition} & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+\end{tabularx}
+
+\vspace{.5in}
+
+
+\begin{tabularx}{\hsize}{|c|X|X|X|X|X|X|}
+    \hline
+    \diagbox{Objet}{Composition} & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+     & & & & & & \\
+    \hline
+\end{tabularx}
+
+\end{document}
