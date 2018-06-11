@@ -1,0 +1,19 @@
+Classe de 3ème de Toulouse,
+Premier groupe :
+- Grosse éclate ! Ecriture binaire. Pas droit aux soustractions :(
+- Nous avons apris la structure binaire de façon amusante. Nous sommes partis de règles en carton pour arriver à trouver un mot grâce à un travail d'équipe. Eloïse
+- Passage de symbole à des nombres, exemple "pique -> 32". Algorithme pour mesurer en commençant toujours par la pièce la plus grande. L'écriture binaire ressemble à des croix dans un tableau. Juliette
+- On utilise des symboles pour mesurer des lettres. On s'apperçoit qu'un symbole est le double des 2 précédant. On convertit ainsi les symboles en nombres en partant de 1 pour le premier symbole puis le symbole suivant correspond au double du précédent. Ainsi pour savoir quelle lettre est la plus grande, on compare les nombres correspondant. Grégoire
+- Trop cool ! Lettres carton. Pas droit aux doubles cartons ni aux soustractions. Heloïse
+- Intéressant. Pas droit aux soustractions et aux doubles carton. Luciano
+- On a appris comment passer d'une mesure de lettre à des symboles puis à des chiffres. On a donc créé un chiffre binaire et compris le language informatique. Ce language s'applique aussi aux décimales et au binaire. Damien
+
+Deuxième groupe : 
+- J'ai trouvé ça très intéressant. Vous nous avez aidé sans tout nous faire, on a pu réfléchir. Un travail de groupe très amusant, à refaire. Avec une grande participation de la part de tout le monde. Merci pour cette charmante activité. J'ai appris des choses. Joséphine
+- La première partie je ne l'ai pas trouvé très intéressante? En revanche, la partie explicative était très intéressante et bien faite. Elle m'a fait comprendre ce qu'était le binaire. Rien à changer.
+- J'ai trouvé l'activité intéressante car avant je ne comprenais pas ce qu'étaient les nombres binaires et grâce à l'activité j'ai comrpis. J'ai trouvé bien que vous nous faisiez essayer de trouver les réponses en faisant le tableau avec les mesures. J'ai bien aimé apprendre un tour de magie. Merci. Louise
+- C'était plutôt enrichissant. Partir de simples plaquettes en carton à des nombres binaires, c'était très ingénieux. J'ai également appris ce qu'étaient les nombres binaires car je les voyait en cours de technologie et ne savais pas vraiment ce qu'ils étaient. C'est une manière ludique d'apprendre quelque chose qu'on ne connaissait pas du tout. J'ai l'impression maintenant que tous les nombres sont reliés. Merci beaucoup ! Morgane
+- L'activité a permis d'apprendre les nombres binaires de manière ludique. On voyait que pour réussir l'activité il a falu faire des recherches et réfléchir.
+- J'ai trouvé cette activité très intéressante pour découvrir les nombres binaires. Au début j'ai cru que ça serait ennuyant puis on arrive à passer des symboles aux nombres binaires. Le tour de magie est la cerise sur le gâteau de cette activité ludique. Raymond
+- C'était super intéressant. On peut voir comment calculer des longueurs et formes des mots seulement avec des morceaux de carton et des signes. J'ai bien aimé comment apprendre le binaire. Je ne sais pas à quoi celà peut servir dans l'informatique. Louri
+
