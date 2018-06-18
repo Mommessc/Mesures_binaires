@@ -21,13 +21,13 @@
 \section{Notions abordées}
 
 Le but de cette activité est de découvrir le langage binaire et de voir comment sont représentés ces nombres binaires dans un ordinateur.
-La durée de l'activité peut varier, environ de 30mn à 1h.
+La durée de l'activité peut varier de 30 minutes environ à 1h.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Public}
 
-Pour le moment activité testée seulement sur une classe de 3ème, mais il est possible de la faire pour toute classe de collège (voire fin de primaire pour la partie mesures et tri).
+Pour le moment l'activité a été testée seulement sur une classe de 3ème, mais il est possible de la faire pour toute classe de collège (voire fin de primaire pour la partie mesures et tri).
 
 Pour une classe de lycée, la partie de tri peut être faite plus rapidement, laissant du temps pour aborder plus en details la manipulation des nombres binaires comme par exemple l'addition et la multiplication.
 
@@ -45,7 +45,8 @@ Au moins 6 objets à mesurer. Prévoir des objets au minimum de taille 1 et au m
 
 Ces objets peuvent cacher une lettre, ou directement être des lettres, pour voir se former un mot ou une phrase lorsqu'ils sont rangés du plus petit au plus grand.
 Une liste d'ojets peut contenir par exemple les lettres pour former le mot "ordinateur" avec les tailles 5, 17, 23, 28, 37, 44, 46, 53, 56 et 60.\\
-\textcolor{red}{Ajouter répartition des tailles entre les groupes ?}
+Lors de l'activité, les lettres du premier groupe étaient O (5), D (23), N (37), E (53) et R (60). Pour le second groupe R (17), I (28), A (44), T (46) et U (56).
+\textcolor{red}{A vérifier avec Pascal qui a gardé les cartons. A voir si une autre répartition des lettres serait mieux.}\\
 
 L'appendice B présente deux tableaux qui peuvent être distribués aux groupes pour aider à noter la taille des objets en termes de symboles.
 
@@ -67,7 +68,7 @@ Penser à noter sur un grand tableau récapitulatif l'ensemble des objets triés
 
 Une étude des réglettes permet de voir qu'en partant de la plus petite réglette, que l'on associe à la taille unitaire 1, chaque réglette plus grande est le double de la réglette d'avant. 
 %
-Chaque réglette a une taille qui est une puissance de 2 et donc on peut associer chaque symbole à cette taille. Ainsi, il est possible d'écrire la taille de chaque objet non pas en terme de symbole mais de nombre (un certain nombre de fois la taille unitaire), ce qui facilite l'opération de tri des objets.
+Chaque réglette a une taille qui est une puissance de 2, on peut donc associer chaque symbole à cette taille. Ainsi, il est possible d'écrire la taille de chaque objet non pas en terme de symbole mais de nombre (un certain nombre de fois la taille unitaire), ce qui facilite l'opération de tri des objets.
 
 On introduit ainsi l'écriture binaire des nombres.
 On peut ajouter que la représentation binaire est unique, et que l'on peut mesurer tous les objets entre 1 et 63 si la plus grande réglette est 32 (en écartant les tailles qui ne sont pas "entières") et donc écrire tous les nombres entre 0 et 63.
@@ -77,14 +78,11 @@ On peut ajouter que la représentation binaire est unique, et que l'on peut mesu
 \section{Extensions}
 
 Pour aller plus loin, on peut parler de l'addition et de la multiplication de deux nombres binaires (la soustraction est plus compliquée !).
-On peut aussi aborder la notion d'algorithme de mesure : comment choisir efficacement les réglettes pour mesurer un objet ? On peut aller d'un algo naïf (on essaie toujours la plus grande réglette et on descend), à très avancé (recherche dichotomique de la réglette la plus proche en taille).
-Enfin, on peut conclure sur un petit tour de magie, pour insister sur la manière de passer d'un nombre binaire à un nombre \textit{connu}. 
-\textcolor{red}{compléter et ajouter tableaux}
 
+On peut aussi aborder la notion d'algorithme de mesure : comment choisir efficacement les réglettes pour mesurer un objet ? On peut aller d'un algo naïf (on essaie toujours la plus grande réglette et on descend), à plus avancé (recherche dichotomique de la réglette la plus proche en taille mais plus petite que l'objet).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Liens}
-
+Enfin, on peut conclure sur un petit tour de magie permettant au "magicien" de deviner un nombre pensé par le public en passant d'un nombre représenté en binaire vers sa notation décimale.
+\textcolor{red}{Ajouter tableaux ou URL d'une page web qui l'explique déjà.}
 
 
 
@@ -115,9 +113,11 @@ Enfin, on peut conclure sur un petit tour de magie, pour insister sur la manièr
 \label{fig:lettres}
 \end{figure}
 
+\newpage
+~\\
+\newpage
 \appendix
 %%%%%%%%%%%%%%%%%%%%%%%% RECTANGLES %%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
 \thispagestyle{empty}
 \bf{Appendice A :} 2 jeux de réglettes de taille 1, 2, 4, 8, 16 et 32.
 \bigskip
